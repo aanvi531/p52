@@ -1,0 +1,89 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 1 px;
+    text-align: center;
+    font-family: fantasy;
+    margin: 0 px;
+    padding: 30 px;
+    
+}
+
+.header{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(0, 153, 255);
+    border: solid;
+    border-color: antiquewhite;
+
+    
+}
+
+.waffle{
+    text-align: left;
+    font-size: 100;
+    margin-left: 15;
+}
+
+.aboutMe{
+    text-align: right;
+    margin-right: 15;
+}
+
+.title{
+    text-align: center;
+    font-size: 100;
+    font-family: fantasy;
+}
+
+*{
+    
+    background-image: url("background copy.png");
+    border-color: #ffffff;
+}
+
+li{
+    text-align: left;
+}
+
+.items{
+    border: solid;
+    border-width: 1 px;
+    border-color: #ffffff;
+    color: #777777;
+    font-family: fantasy;
+    width: 250;
+    height: 400;
+    
+}
+
+a:link{
+    color: gray;
+}
+
+a:link{
+    color: antiquewhite;
+}
+
+.itemsimg{
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: transform(-50%, -50%);
+    opacity: 0; 
+}
+
+
+
+.item:hover img{
+    opacity: 0.33;
+    transform: scale(1.2);
+}
+
